@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   
   devise_for :users
   
+  get '/download-proxy', to: 'download_proxy#download'
+  
 end
